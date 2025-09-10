@@ -1,0 +1,29 @@
+h1 {
+    color: tomato;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+ul {
+    list-style-position: outside;
+    background-color: teal;
+    padding: 20px;
+    margin: 50px;
+
+}
+
+li {
+    font-size: 50px;
+    text-align: left;
+    color: springgreen;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: 50px;
+    padding-left: 100px;
+
+}
