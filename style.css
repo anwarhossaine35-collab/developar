@@ -1,81 +1,69 @@
-div {
-    color: yellowgreen;
-    border: 2px solid black;
-    padding: 20px;
-    margin: 15px;
-    border-radius: 10px;
+.container {
+    height: 600px;
+    width: auto;
+    margin: auto;
+    padding: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    cursor: pointer;
+    color: brown;
+}
+
+.logo {
+    position: relative;
+    top: 0px;
+    left: 500px;
+    font-size: 20px;
+
+}
+
+.box-1 {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-0 {
+    height: auto;
+    width: 100%;
 }
 
 h1 {
-    color: turquoise;
     text-align: center;
-    font-size: 50px;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 200px;
-
-}
-
-label {
     font-size: 20px;
-    font-weight: bold;
-    display: block;
-    margin-top: 10px;
-    text-align: center;
-    margin-bottom: 5px;
 }
 
-input {
-    border-radius: 5px;
-    font-size: 16px;
-    width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
+.box-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
+h2 {
+    text-align: center;
+    font-size: 20px;
 }
 
 button {
-    background-color: tomato;
-    color: aliceblue;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    position: relative;
+    bottom: auto;
+    left: 175px;
     cursor: pointer;
-    font-size: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-
+    background-color: aqua;
 }
 
-a {
-    color: springgreen;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    margin-top: 15px;
-    font-size: 10px;
-    font-weight: bold;
+.box-3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 p {
     text-align: center;
-    font-size: 18px;
-    margin-top: 15px;
-    font-style: normal;
-    font-weight: normal;
-    color: blue;
-    line-height: 1.5;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-indent: 30px;
+    font-size: 15px;
 }
